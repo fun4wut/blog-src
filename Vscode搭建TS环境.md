@@ -1,7 +1,7 @@
 ---
 title: Vscode搭建TS环境
 date: 2018-05-26 09:52:22
-tags:
+tags: Editor/IDE
 ---
 # 简介
 VSCode 是微软公司推出的一款开源的文本编辑器，因其强大的功能，较快的启动速度（相比IDE而言）和内置的控制台，git等而广受好评。
