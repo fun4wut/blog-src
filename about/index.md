@@ -1,5 +1,5 @@
 ---
-title: about
+title: ABOUT ME
 date: 2018-06-18 22:23:03
 layout: about
 ---
