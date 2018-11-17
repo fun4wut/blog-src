@@ -1,7 +1,7 @@
 ---
 title: ArchLinux安装攻略的补充
 date: 2018-09-14 21:24:59
-tags:
+tags: Linux
 ---
 ## 前言
 
