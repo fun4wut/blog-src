@@ -3,7 +3,11 @@ title: KDE踩坑实录 [3月22日更新]
 date: 2019-03-13 15:15:30
 tags: Linux
 ---
+
+> 只有写写踩坑文才能维持生活的样子
 > 环境：Fedora 29,  KDE 5.55.0
+
+<!-- more -->
 
 # KDE CONNECT找不到设备
 

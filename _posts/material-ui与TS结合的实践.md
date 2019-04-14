@@ -3,6 +3,9 @@ title: material-ui与TS结合的实践
 date: 2019-01-31 19:19:56
 tags: React
 ---
+> TypeScript yes!!!
+
+<!-- more -->
 # 介绍
 ## material-ui
 [material-ui](https://material-ui.com/)是一款React下的组件库，它支持绝大部分Material Design所定义的组件。相比其他的React组件库【比如[antd](https://ant.design/),[semantic-ui](https://react.semantic-ui.com)】，它有如下优势：

@@ -3,7 +3,7 @@
 # ---------------
 theme_color:
   enable: true
-  main: "#b5c1e8"
+  main: "#3f51b5"
   paginator: "#00C4B6"
   button_hover: "#FF7242"
   text_selection: "#00C4B6"
@@ -49,9 +49,10 @@ code_word_wrap: true
 # Nav settings
 # ---------------
 social:
-  github: https://github.com/fun4wut
-  envelope: mailto:nihouze@live.cn
-  zhihu: https://www.zhihu.com/people/san-miao-hua-tu-wu-miao-jie-ti/
+  github fa: https://github.com/fun4wut
+  envelope fa: mailto:nihouze@live.cn
+  zhihu fa: https://www.zhihu.com/people/san-miao-hua-tu-wu-miao-jie-ti/
+  rss fa: /atom.xml
 # Algolia search
 # ---------------
 algolia_search:
@@ -119,7 +120,9 @@ cdn:
 # ---------------
 avatar: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/18-8-29/83907422.jpg
 
-top_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/18-8-29/wallhaven-683638.jpg # false or url of img 
+top_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/xiao.jpg
+
+ # false or url of img 
 
 post_meta:
   date_type: created # created or updated 
@@ -142,7 +145,7 @@ post_copyright:
 # Please see doc for more details: https://molunerfinn.com/hexo-theme-melody-doc/#/theme-config?id=auto-excerpt
 auto_excerpt:
   enable: true
-  length: 150
+  length: 400
 
 # slide
 # For reveal.js config, see https://github.com/hakimel/reveal.js#configuration
@@ -167,7 +170,7 @@ slide:
 
 adv:
   enable: true
-  info: 
+  info: <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=520 height=86 src="//music.163.com/outchain/player?type=2&id=28018274&auto=1&height=66"></iframe>
 
 # Share System
 # ---------------
@@ -225,7 +228,7 @@ laibili:
 # ---------------
 since: 2018
 
-footer_custom_text: Hi, welcome to my <a href="https://www.gofun4.top">blog</a>!
+footer_custom_text: <del>过早优化是万恶之源</del>
 
 ICP:
   enable: false
@@ -259,6 +262,10 @@ links:
   咸鱼的自我修养: https://chrisju.cn
   隐函数_北极鹅: https://blog.sina.com.cn/u/5848707168
   BABY Q: https://sweet-q.github.io
+  YY: https://iamsmally.github.io
+  Fuma: https://nobugs.dev
+  柴柴: https://mizunashi.me
+  Moonhe: https://www.moonhe.com/
 # Follow Me Button
 follow:
   enable: true
