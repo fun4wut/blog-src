@@ -8,7 +8,7 @@ theme_color:
   button_hover: "#FF7242"
   text_selection: "#00C4B6"
   link_color: "#858585"
-  hr_color: "#A4D8FA"
+  hr_color: "#00ffff"
 
 # Main menu navigation
 # ---------------
@@ -170,7 +170,7 @@ slide:
 
 adv:
   enable: true
-  info: <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=520 height=86 src="//music.163.com/outchain/player?type=2&id=28018274&auto=1&height=66"></iframe>
+  info: <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=28018274&auto=1&height=66"></iframe>
 
 # Share System
 # ---------------
