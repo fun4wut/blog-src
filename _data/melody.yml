@@ -81,9 +81,9 @@ fireworks: true
 
 # Analysis
 # ---------------
-baidu_analytics: 
+baidu_analytics: 19e811330e1143a8e63f5ab9908c0088
 
-google_analytics:
+google_analytics: UA-138612309-1
 
 # stylesheets loaded in the <head>
 # ---------------
@@ -262,10 +262,11 @@ links:
   咸鱼的自我修养: https://chrisju.cn
   隐函数_北极鹅: https://blog.sina.com.cn/u/5848707168
   BABY Q: https://sweet-q.github.io
-  YY: https://iamsmally.github.io
+  SmallY: https://iamsmally.github.io
   Fuma: https://nobugs.dev
-  柴柴: https://mizunashi.me
+  Mizunashi: https://mizunashi.me
   Moonhe: https://www.moonhe.com/
+  Geofront: http://geofront.top
 # Follow Me Button
 follow:
   enable: true
