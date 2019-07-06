@@ -9,6 +9,8 @@ tags:
 ---
 数据库的大作业原本是想用Springboot + PostgreSQL + Redis + Docker 做的，顺便学习一下后端知识，非常不幸的，踩了不少坑，也很难找到中文的解决办法，最后靠着伟大的StackOverflow 和 国外的热情网友们才解决了问题。如果你在学习Spring-Boot的路上凑巧遇上了同样的问题，希望这篇文章能对你有所帮助XD
 
+<!-- more -->
+
 ## JPA
 
 ### 使用PGSQL枚举类
