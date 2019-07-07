@@ -86,7 +86,7 @@ blog.your.host {
     gzip
     root /var/www/blog/public
     git {
-        repo http://localhost:3000/fun4wut/blog-src.git
+        repo https://your.git.repo
         path ../source
         hook /webhook secret-key
         hook_type gogs
