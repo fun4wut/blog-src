@@ -5,6 +5,8 @@ tags: React
 ---
 > TypeScript yes!!!
 
+[TOC]
+
 <!-- more -->
 # 介绍
 ## material-ui
@@ -50,7 +52,7 @@ tags: React
    cd src/pages
    vim ./document.ejs
    ```
-    
+   
 4. 加入字体库和移动端支持
    ```html
    <!doctype html>
@@ -66,7 +68,7 @@ tags: React
       <div id="root"></div>
     </body>
     </html>
-    ```
+   ```
 5. 修改tsconfig提升变成乐趣
    Umi已经把大体的配置好了，可以再加入一些检查
    ```js
