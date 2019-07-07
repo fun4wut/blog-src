@@ -25,14 +25,14 @@ VSCode 是微软公司推出的一款开源的文本编辑器，因其强大的�
 	- “outdir” : 输出目录
   -  "alwaysStrict" ： 打开严格模式 ('use strict')
 4.  命令行下输入 `code .` 打开VSCode进入该目录，按下 Ctrl+shift+B 快捷键会进行编译，初次编译会选择编译模式
-![](Vscode搭建TS环境/a.png) 
+![](/Vscode搭建TS环境/a.png) 
 **监视模式 是每当TS文件有变动就会自动编译，构建模式是手动命令编译时才会去编译,这里选择监视模式**
 
 5. 按下F5开始调试，初次调试会让你选择调试环境
-![](Vscode搭建TS环境/b.png)
+![](/Vscode搭建TS环境/b.png)
 **这个根据自己JS的宿主环境进行选择，本文使用NODE环境**
 6. 在调试按钮上面有一个配置按钮，点击对调试进行详细修改
-![](Vscode搭建TS环境/c.png)
+![](/Vscode搭建TS环境/c.png)
 
 
 # 完工

@@ -5,7 +5,7 @@ tags: React
 ---
 > TypeScript yes!!!
 
-[TOC]
+
 
 <!-- more -->
 # 介绍

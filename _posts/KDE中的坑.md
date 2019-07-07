@@ -7,8 +7,6 @@ tags: Linux
 > 只有写写踩坑文才能维持生活的样子
 > 环境：Fedora 29,  KDE 5.55.0
 
-[TOC]
-
 <!-- more -->
 
 # KDE CONNECT找不到设备

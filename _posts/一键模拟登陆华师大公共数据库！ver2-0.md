@@ -11,6 +11,9 @@ abstract: 爬虫真有劲系列
 httpclient还是强啊，自动维持session和cookie的特性着实方便了不少。
 
 目前还有两个待解决的问题，一是验证码要手动输入，二是rsa，pl，ul这几个参数必须首先登陆一次才能拿到（这跟用户名密码绑定的）验证码手动输入的问题不难，图片很好认，用现有的工具很好搞定。第二个就比较困难了，首先我找不到加密脚本的位置orz
+
+<!--more-->
+
 ``` java
 package just4tset4;  
 import java.util.*;  
