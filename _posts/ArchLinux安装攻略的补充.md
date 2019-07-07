@@ -6,7 +6,7 @@ tags: Linux
 
 ## 前言
 
-闲来无事尝试安装了ArchLinux+WIn10的双系统,踩过不少坑,在**官方wiki**和**大神的博客**的帮助下,最终完成了安装.成果图如下.![效果图](https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/a.jpg)
+闲来无事尝试安装了ArchLinux+WIn10的双系统,踩过不少坑,在**官方wiki**和**大神的博客**的帮助下,最终完成了安装.成果图如下.![效果图](https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/arch.jpg)
 
 可以看到我又在那篇博客的基础上做了不少微调.故开贴将这些调整之处记录下来,也算是做一个备忘
 
