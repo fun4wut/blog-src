@@ -4,18 +4,24 @@ date: 2018-11-17 22:24:42
 tags: Linux
 ---
 
-换了新显示器后，原来的arch怎么也识别不出来，很蛋疼，加之之前双系统来回切也有些厌烦了。最终，想起了被遗弃在角落的WSL。决定加以改造，作为日常使用。
+## 前言
+
+换了新显示器后，原来的arch怎么也识别不出来，很蛋疼，加之之前双系统来回切也有些厌烦了。
+
+最终，想起了被遗弃在角落的WSL。决定加以改造，作为日常使用。
+
+
+**WSL安装过程不再赘述。**
+
 <!-- more -->
 
-**WSL安装过程不再赘述**
-
-# WSL-terminal
+## WSL-terminal
 
 为什么要使用WSL-terminal呢，因为<del>他比PS，cmder之流高到不知道那里去了。</del> 他是基于mintty魔改的终端，低调奢华。附带添加至右键菜单，添加之环境变量等脚本全家桶，安装省心方便
 
 方法：浏览器打开 [wsl-terminal地址](https://github.com/goreliu/wsl-terminal)阅读完Readme下载即可。
 
-# 设置镜像源
+## 设置镜像源
 
 ubuntu国外源非常慢，这里建议采用清华大学TUNA的源。
 
@@ -28,7 +34,7 @@ sudo apt-get upgrade
 ```
 更新Ubuntu软件源即可
 
-# 安装ZSH&OH-MY-ZSH
+## 安装ZSH&OH-MY-ZSH
 
 ZSH有多强大就不赘述了，用过都说好。
 
@@ -41,7 +47,7 @@ chsh -s /bin/zsh
 
 ---
 
-## OH-MY-ZSH 安装
+### OH-MY-ZSH 安装
 
 ```shell
 $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -51,7 +57,7 @@ $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools
 
 ---
 
-## OH-MY-ZSH 插件安装
+### OH-MY-ZSH 插件安装
 
 ```shell
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
@@ -71,7 +77,7 @@ plugins = (... zsh-autosuggestions zsh-syntax-highlighting)
 
 ---
 
-## 安装powerline主题
+### 安装powerline主题
 
 agnoster主题所必须。通过pip安装
 
@@ -91,7 +97,7 @@ rm -rf fonts
 
 ---
 
-## 安装颜色插件
+### 安装颜色插件
 
 改造完的WSL依然有点丑
 
@@ -117,28 +123,28 @@ eval `dircolors ~/你刚刚下载插件的目录/dircolors.256dark`
 
 ---
 
-## 修改文件权限
+### 修改文件权限
 
 TODO:
 
 
 
-# 其他常用软件备忘
+## 其他常用软件备忘
 
-## 环境管理
+### 环境管理
 
 1. nvm【管理node】
 2. anaconda 【管理python】
 3. SDKMAN 【管理Java，kotlin，maven。。。】
 
-## 包管理
+### 包管理
 
 1. yarn 【全局模块目录通过`yarn global bin`查询，加入到path中】
 2. maven
 
-## 代理
+### 代理
 
 1. proxychains【去GitHub下载最新版】
 2. 利用alias更新hosts
-  `alias = "alias hosts='sudo wget https://raw.githubusercontent.com/googlehosts/hosts/master/hosts-files/hosts -O /etc/hosts'"`
+    `alias = "alias hosts='sudo wget https://raw.githubusercontent.com/googlehosts/hosts/master/hosts-files/hosts -O /etc/hosts'"`
 3.  

@@ -6,25 +6,31 @@ tag:
  - Caddy
 ---
 
-在使用GithubPage+Hexo来部署博客时，我们时常会遇到这样的问题: 网页源代码push上去了，但是大量的markdown文件保留在了本地，这对于多机用户的影响是很大的。为此你不得不再新建一个branch/repo来存放你的文章，但依然难以避免忘记同步文章的情况发生。且多机环境意味着每台机器都要装nodejs环境来进行网页的生成。十分不友好。所以更好的解决方案呼之欲出：使用*webhhook*等方式，把生成网页的步骤交给服务器，PC要做的仅仅是写markdown+同步至Git
+## 前言
 
-<!--more-->
+在使用GithubPage+Hexo来部署博客时，我们时常会遇到这样的问题: 网页源代码push上去了，但是大量的markdown文件保留在了本地，这对于多机用户的影响是很大的。
 
-# 前置工作
+为此你不得不再新建一个branch/repo来存放你的文章，但依然难以避免忘记同步文章的情况发生。
+
+并且多机环境意味着每台机器都要装nodejs环境来进行网页的生成。十分不友好。
+
+所以更好的解决方案呼之欲出：使用*webhhook*等方式，把生成网页的步骤交给服务器，PC要做的仅仅是写markdown+同步至Git。
+
+### 准备工作
 
 - 准备好Caddy环境，具体可查看我的上一篇博客：[Gitea+Caddy搭建私有Git服务]([https://blog.fun4go.top/2019/07/06/Gitea+Caddy%E6%90%AD%E5%BB%BA%E7%A7%81%E6%9C%89Git%E6%9C%8D%E5%8A%A1/](https://blog.fun4go.top/2019/07/06/Gitea+Caddy搭建私有Git服务/))
 - 任意Git服务（如Github/GitLab/Gitea）
 - Hexo的基础知识，不了解的请先去查阅官网：[文档|Hexo](https://hexo.io/zh-cn/docs/index.html)
 
+<!--more-->
 
+## 配置Repo
 
-# 配置Repo
-
-## 建议一个存放文章源代码的Repo
+### 建议一个存放文章源代码的Repo
 
 将source文件夹下的所有文件上传
 
-## 设置Webhook (Optional)
+### 设置Webhook (Optional)
 
 Caddy的Git插件只对以下有效
 
@@ -42,15 +48,15 @@ Webhook位于Settings/Webhooks。
 
 
 
-# 配置Hexo
+## 配置Hexo
 
-## 使用官方源的Nodejs
+### 使用官方源的Nodejs
 
 由于Caddy的用户组为`www-data`，它的PATH变的路径很少。使用`nvm`或`n`来使用node环境的话会出很多问题。
 
 这里建议直接`sudo apt install nodejs`
 
-## 建立hexo主目录
+### 建立hexo主目录
 
 1. 在`/var/www/`下建立你的博客主目录
 
@@ -68,7 +74,7 @@ Webhook位于Settings/Webhooks。
 
 
 
-# 配置Caddy
+## 配置Caddy
 
 对`/etc/caddy/Caddyfile`进行修改，增加新的网站
 

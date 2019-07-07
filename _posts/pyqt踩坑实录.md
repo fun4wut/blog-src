@@ -3,7 +3,7 @@ title: pyqt踩坑实录
 date: 2018-11-17 22:17:08
 tags: Python
 ---
-# 如何创建一个可编辑的QLabel（双击编辑，回车保存）
+## 如何创建一个可编辑的QLabel（双击编辑，回车保存）
 1. 建立一个MyLabel类继承QWidget
 
 2. 布局中添加两个组件label(继承自QLabel) 和 edit(继承自QLineEdit)
@@ -42,7 +42,7 @@ class SingleBuddyLabel(QWidget):
 
 ---
 
-# 如何刷新组件
+## 如何刷新组件
 *前提： 该组件必须处在layout中*
 
 1. 通过位置定位该元素【一般是将要更新的widget单独放在layout中】
@@ -66,7 +66,7 @@ layout.addWidget(widget)
 
 ---
 
-# 如何多线程定时刷新UI
+## 如何多线程定时刷新UI
 1. 建立一个线程类继承自QThread
 
 2. 重写run方法，里面放定时的代码
@@ -101,13 +101,13 @@ class Try(QWidget):
 
 ---
 
-# 其他TIPS/集锦
+## 其他TIPS/集锦
 
-## 设置居中
+### 设置居中
 `label.setAlignment(Qt.AlignCenter)`
 
-## 一步给组件设置layout
+### 一步给组件设置layout
 `layout = QHBoxLayout(widget)`
 
-## QLabel自适应文字
+### QLabel自适应文字
 `label.adjustSize()`

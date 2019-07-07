@@ -2,14 +2,11 @@
 title: material-ui与TS结合的实践
 date: 2019-01-31 19:19:56
 tags: React
+
 ---
-> TypeScript yes!!!
 
-
-
-<!-- more -->
-# 介绍
-## material-ui
+## 介绍
+### material-ui
 [material-ui](https://material-ui.com/)是一款React下的组件库，它支持绝大部分Material Design所定义的组件。相比其他的React组件库【比如[antd](https://ant.design/),[semantic-ui](https://react.semantic-ui.com)】，它有如下优势：
 * 样式酷炫， 符合年轻人审美
 * 定制化程度强
@@ -21,14 +18,14 @@ tags: React
   5. SASS/SCSS
 * 完善的Typescript支持
 
-## Typescript
+### Typescript
 [Typescript](http://www.typescriptlang.org/)是由微软开发的JavaScript的超集，同时借鉴了Java与C＃的优点。相比JavaScript，它的优势在于:
 * 静态类型检查，减少运行时错误
 * 增强IDE的智能提示
 * 强大的社区支持
 * 空安全机制
 
-## Umi
+### Umi
 [umi](https://umijs.org)，中文可发音为乌米，是一个由阿里开源的 react 应用框架。umi 以路由为基础的，支持类 next.js 的约定式路由，以及各种进阶的路由功能，并以此进行功能扩展，比如支持路由级的按需加载。然后配以完善的插件体系，覆盖从源码到构建产物的每个生命周期，支持各种功能扩展和业务需求，目前内外部加起来已有 50+ 的插件。它的主要特性在于：
 * 📦 **开箱即用**，内置 react、react-router 等
 * 🏈 **类 next.js 且[功能完备](https://umijs.org/guide/router.html)的路由约定**，同时支持配置的路由方式
@@ -40,8 +37,10 @@ tags: React
 * 🍁 **完善的 TypeScript 支持**，包括 d.ts 定义和 umi test
 * 🌴 **与 dva 数据流的深入融合**，支持 duck directory、model 的自动加载、code splitting 等等
 
-# 最佳实践
-## 前期准备
+<!--more-->
+
+## 最佳实践
+### 前期准备
 1. 安装umi脚手架
    自行查看[通过脚手架创建项目](https://umijs.org/zh/guide/create-umi-app.html)
 2. 安装material-ui
@@ -78,8 +77,8 @@ tags: React
     "noImplicitThis": true, //禁止隐式的this
     "strictNullChecks": true //空安全检查
    ```
-## 具体编码
-### 改写styles的声明方式
+### 具体编码
+#### 改写styles的声明方式
 1. 无theme
    ```ts
    const styles = createStyles({
@@ -92,14 +91,14 @@ tags: React
        // JSS code
    })
    ```
-### 改写Props的声明方式
+#### 改写Props的声明方式
 Props需要继承WithStyles这一泛型接口
 ```ts
 interface Props extends WithStyles<typeof styles>{}
 /* ....... */ 
 class Example extends React.Component<Props,State>{}
 ```
-### 自定义主题
+#### 自定义主题
 一般在顶层组件(umi下是`src/layouts/index.tsx`)下自定义主题即可
 ```tsx
 // .......没法高亮，抱歉
@@ -121,7 +120,7 @@ function Layout(props: Props){
 }
 export default withStyles(styles,{withTheme: true})(Layout)
 ```
-### Attention！
+## Attention！
 **不要使用@material-ui/styles下的函数/组件，天坑警告**
 **不要使用@material-ui/styles下的函数/组件，天坑警告**
 **不要使用@material-ui/styles下的函数/组件，天坑警告**

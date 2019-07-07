@@ -6,17 +6,17 @@ tags:
  - Git
 ---
 
+## 前言
+
 花了不少时间把Github的垃圾代码搬迁到了Gitea上，用作自嗨。简单写写遇到的苦难，希望看到这篇文章的各位能少踩些坑
 
-<!--more-->
-
-## 为什么使用Gitea+Caddy?
+### 为什么使用Gitea+Caddy?
 
 - Gitea相比其他Git服务【如gitlab，gogs等】，非常轻量级，适合学生服务器使用。
 - Caddy使用非常简单，快速上手，自动部署HTTPS -> 这个我吹爆
 - 两个都是用Go语言写的，<del>这是一种缘分，也是种巧合</del>
 
-
+<!--more-->
 
 ## Gitea搭建
 

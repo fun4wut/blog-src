@@ -4,6 +4,8 @@ date: 2018-08-14 17:57:32
 tags: React
 abstract: 走上前端的不归路
 ---
+## 前言
+
 create-react-app作为React框架的官方脚手架，以其安装方便，无需配置，开箱即用，而被人所喜爱。但在使用过程中也暴露出不少问题，比如不能按需加载UI框架，以及不支持SASS，LESS等CSS预处理器。下文就将解决这两个问题。
 <!-- more -->
 
@@ -74,4 +76,4 @@ create-react-app作为React框架的官方脚手架，以其安装方便，无�
 
 ## 总结
 完成上述两处即可，愉快地coding吧 
-![](create-react-app中引入antd和less/alice.jpg)
+![](https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/alice.jpg)

@@ -50,10 +50,10 @@ pm2 是一个带有负载均衡功能的Node应用的进程管理器.当你要�
 
 个人目前用的是宝塔Linux面板，可以说是把Linux的各种操作都已比较简单的形式展现出来了，不需要什么Linux知识就能掌握      [宝塔官网了解一下](https://www.bt.cn/)
 
-![管理界面](服务器部署nodejs的几种方法/a.png)
+![管理界面](https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/11.png)
 
 而这其中内置了PM2管理，装一下就OK了
-![PM2界面](服务器部署nodejs的几种方法/b.png)
+![PM2界面](https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/22.png)
 
 ## 真·点点点操作
 

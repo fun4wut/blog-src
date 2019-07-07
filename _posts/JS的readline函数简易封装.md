@@ -5,6 +5,7 @@ tags: JS
 abstract: 做脚手架（cli）的时候可能会用到
 ---
 JS一直没有一个很好的处理标准输入的方法，在以前，我们需要这样做
+
 ```js
 let readline = require('readline')
 const rl = readline.createInterface({
