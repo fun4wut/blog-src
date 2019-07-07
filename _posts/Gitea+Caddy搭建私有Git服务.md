@@ -1,6 +1,6 @@
 ---
 title: Gitea+Caddy搭建私有Git服务
-date: 2018-07-06 17:38:11
+date: 2019-07-06 17:38:11
 tags: 
  - 服务器
  - Git
@@ -117,19 +117,27 @@ tags:
 
    上面创建了三个目录，`/etc/caddy` 用了存放 Caddy 的配置文件，`/etc/ssl/caddy` 存放证书，`/var/www` 是默认的网站目录。
 
-3. 接着，重新加载 `systemd daemon`，让配置生效。
+3. 这样的配置无法让caddy获得80和443端口的权限。需要修改`/etc/systemd/system/caddy.service`，取消注释
+
+   ```
+   ; Note that you may have to add capabilities required by any plugins in use.
+   CapabilityBoundingSet=CAP_NET_BIND_SERVICE
+   AmbientCapabilities=CAP_NET_BIND_SERVICE
+   ```
+
+4. 接着，重新加载 `systemd daemon`，让配置生效。
 
    ```bash
    sudo systemctl daemon-reload
    ```
 
-4. 让 Caddy 开机自启。
+5. 让 Caddy 开机自启。
 
    ```bash
    sudo systemctl enable caddy.service
    ```
 
-5. 启动Caddy
+6. 启动Caddy
 
    ```bash
    sudo systemctl start caddy.service
