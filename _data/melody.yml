@@ -170,7 +170,7 @@ slide:
 
 adv:
   enable: true
-  info: <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=28018274&auto=1&height=66"></iframe>
+  info: <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=570086235&auto=0&height=66"></iframe>
 
 # Share System
 # ---------------
@@ -266,7 +266,8 @@ links:
   Fuma: https://nobugs.dev
   Mizunashi: https://mizunashi.me
   Moonhe: https://www.moonhe.com/
-  Geofront: http://geofront.top
+  Geofront: https://geofront.top/
+  Koyamin: https://koyamin.top/
 # Follow Me Button
 follow:
   enable: true
