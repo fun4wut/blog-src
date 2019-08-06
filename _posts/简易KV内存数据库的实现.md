@@ -57,7 +57,7 @@ top_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/18-8-29/post-bg.jpg
 
 幸运的是，`Rust` 已经有了这样的短网址库，没必要自己写了。
 
-[magiclen/rust-short-cryptgithub.com![图标](https://pic3.zhimg.com/v2-427a621a8775f8b052aab855c5884e82_ipico.jpg)](https://link.zhihu.com/?target=https%3A//github.com/magiclen/rust-short-crypt)
+[https://crates.io/crates/short-crypt](https://crates.io/crates/short-crypt)
 
 
 
