@@ -1,10 +1,11 @@
 ---
 title: Vscode搭建TS环境
 date: 2018-05-26 09:52:22
-tags: Editor/IDE
-abstract: 简单地配置就会有很好的效果
+tags: Vscode
+toc: true
+categories: 经验分享
 ---
-# 简介
+
 VSCode 是微软公司推出的一款开源的文本编辑器，因其强大的功能，较快的启动速度（相比IDE而言）和内置的控制台，git等而广受好评。
 而Typescript同样是微软推出的改良版Javascript，其作为JS的超集，完美兼容ES7的语法之外有着更完备的模块系统，更多的特性（装饰器，枚举），以及编译时的静态类型检查，有效避免了“动态一时爽，重构火葬场”的尴尬。
 

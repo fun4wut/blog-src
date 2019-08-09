@@ -2,9 +2,10 @@
 title: WSL改造实录
 date: 2018-11-17 22:24:42
 tags: Linux
+toc: true
+categories: 经验分享
 ---
 
-## 前言
 
 换了新显示器后，原来的arch怎么也识别不出来，很蛋疼，加之之前双系统来回切也有些厌烦了。
 

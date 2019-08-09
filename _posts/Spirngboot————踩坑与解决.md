@@ -6,8 +6,9 @@ tags:
  - Spring-boot
  - docker
  - 数据库
+toc: true
+categories: 经验分享
 ---
-## 前言
 
 数据库的大作业原本是想用Springboot + PostgreSQL + Redis + Docker 做的，顺便学习一下后端知识。
 

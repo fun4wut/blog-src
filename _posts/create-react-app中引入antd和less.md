@@ -2,9 +2,9 @@
 title: create-react-app中引入antd和less
 date: 2018-08-14 17:57:32
 tags: React
-abstract: 走上前端的不归路
+toc: true
+categories: 经验分享
 ---
-## 前言
 
 create-react-app作为React框架的官方脚手架，以其安装方便，无需配置，开箱即用，而被人所喜爱。但在使用过程中也暴露出不少问题，比如不能按需加载UI框架，以及不支持SASS，LESS等CSS预处理器。下文就将解决这两个问题。
 <!-- more -->

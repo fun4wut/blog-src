@@ -2,6 +2,8 @@
 title: pyqt踩坑实录
 date: 2018-11-17 22:17:08
 tags: Python
+toc: true
+categories: 经验分享
 ---
 ## 如何创建一个可编辑的QLabel（双击编辑，回车保存）
 1. 建立一个MyLabel类继承QWidget
@@ -39,8 +41,7 @@ class SingleBuddyLabel(QWidget):
         self.edit.setFocus()
 
 ```
-
----
+<!--more-->
 
 ## 如何刷新组件
 *前提： 该组件必须处在layout中*
@@ -64,7 +65,6 @@ layout.addWidget(widget)
 
 4. 坑点：**widget不要用成员变量，否则会崩**
 
----
 
 ## 如何多线程定时刷新UI
 1. 建立一个线程类继承自QThread
@@ -99,7 +99,6 @@ class Try(QWidget):
 
 4. 坑点：**pyqtSignal创建必须在__init__方法之前**
 
----
 
 ## 其他TIPS/集锦
 

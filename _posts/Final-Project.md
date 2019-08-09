@@ -1,10 +1,12 @@
 ---
 title: Web应用开发大作业分享，感悟，吐槽
 date: 2018-05-25 17:38:11
-tags: 综合
-abstract: WEB应用开发---体育预约抢课
+tags: 
+ - 小程序
+ - Node.js
+toc: true
+categories: 经验分享
 ---
-## 前言
 
 Web大作业终于在1个星期内搞定了。说是说一星期，但还是花了不少时间在体育预约程序的设计上。在这上面花的时间要将近3个星期。期间也搞了一下功能阉割版的微信小程序。
 名字叫做**ECNU查询通** ![小程序二维码](https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/a.jpg)<br/>

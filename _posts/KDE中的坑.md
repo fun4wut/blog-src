@@ -2,14 +2,13 @@
 title: KDE踩坑实录 [3月22日更新]
 date: 2019-03-13 15:15:30
 tags: Linux
+toc: true
+categories: 经验分享
 ---
 
-## 前言
+只有写写踩坑文才能维持生活的样子
+环境：Fedora 29,  KDE 5.55.0
 
-> 只有写写踩坑文才能维持生活的样子
-> 环境：Fedora 29,  KDE 5.55.0
-
-<!-- more -->
 
 ## KDE CONNECT找不到设备
 
@@ -33,6 +32,8 @@ tags: Linux
   sudo firewall-cmd --zone=public --add-port=1714-1764/udp --permanent
   sudo firewall-cmd --reload
   ```
+
+<!-- more -->
 
 ## KMAIL无法加入微软系列邮箱
 

@@ -2,9 +2,9 @@
 title: ArchLinux安装攻略的补充
 date: 2018-09-14 21:24:59
 tags: Linux
+toc: true
+categories: 经验分享
 ---
-
-## 前言
 
 闲来无事尝试安装了ArchLinux+WIn10的双系统,踩过不少坑,在**官方wiki**和**大神的博客**的帮助下,最终完成了安装.成果图如下.![效果图](https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/arch.jpg)
 

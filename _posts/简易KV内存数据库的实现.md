@@ -5,9 +5,9 @@ tags:
  - Rust
  - 数据库
 top_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/18-8-29/post-bg.jpg
+toc: true
+categories: 经验分享
 ---
-
-##  前言
 
 7月中旬的时候看到了一篇知乎上的关于搭建 `pastebin` 服务的文章 https://zhuanlan.zhihu.com/p/73961522 
 

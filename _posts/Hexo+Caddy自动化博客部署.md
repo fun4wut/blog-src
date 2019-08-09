@@ -4,9 +4,9 @@ date: 2019-07-07 09:48
 tag:
  - Hexo
  - Caddy
+toc: true
+categories: 经验分享
 ---
-
-## 前言
 
 在使用GithubPage+Hexo来部署博客时，我们时常会遇到这样的问题: 网页源代码push上去了，但是大量的markdown文件保留在了本地，这对于多机用户的影响是很大的。
 
