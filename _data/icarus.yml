@@ -66,8 +66,13 @@ search:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment
 comment:
     # Name of the comment plugin
-    type: livere
-    uid: MTAyMC8zNzI0Ni8xMzc4MA==
+    type: utter
+    # user/repo
+    repo: fun4wut/blog-src
+    # github-light/github-dark/github-dark-orange/icy-dark/dark-blue/photon-dark
+    theme: github-light
+    # pathname/url/title/og:title
+    issue_term: title
 # Donation entries
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Donation/
 #donate:
