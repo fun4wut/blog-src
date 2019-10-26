@@ -1,6 +1,6 @@
 ---
 title: Rust并发-线程池与future
-date: 2019-10-03 22:05:37
+date: 2019-10-26 16:00:37
 tags: 
  - Rust
  - 并发
@@ -66,7 +66,17 @@ Rust的异步语法刚敲定不久，async/await 即将在11月进入stable，�
 
 异步的方式能让我们以非常小的代价顶住高并发，尤其是在Web服务器这种IO密集型的任务上。
 
+我们使用 `async-std` 这一库，API完全复制的标准库，不过改成了异步方式，零学习成本。
+
 ```rust
+use async_std::{
+    fs, io,
+    net::{TcpListener, TcpStream},
+    prelude::*,
+    task,
+};
+use futures_timer::Delay;
+use std::time::Duration;
 async fn async_handle(mut stream: TcpStream) -> io::Result<()> {
     let mut buffer = [0; 512];
     stream.read(&mut buffer).await?;
