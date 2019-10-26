@@ -12,7 +12,7 @@ categories: 学习笔记
 
 比较有意思的点在于并发处理上，在查阅了一些资料后，我决定自己动手，用不同的并发方式取构建Web服务器，并通过 `ab` ， `wrk` 等压力测试工具来评测各种并发方式的效率。
 
-完整代码可在我的 [Github](https://github.com/fun4wut/naive-server/blob/master) 上查看
+完整代码可在我的 [Github](https://github.com/fun4wut/naive-concurrent/blob/master) 上查看
 
 <!--more-->
 
