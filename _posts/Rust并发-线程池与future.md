@@ -374,11 +374,9 @@ impl Drop for CVarThreadPool {
 将
 
 ```rust
-​```
 while let Ok(task) = arx.lock().unwrap().recv() {
 task.call_box(); //锁未释放
 } //临时值MutexGuard<T>在此才被丢弃
-​```
 ```
 
  改为
