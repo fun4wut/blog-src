@@ -119,7 +119,7 @@ sidebar:
 # Sidebar widget settings
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
-   -
+    -
         # Widget name
         type: profile
         # Where should the widget be placed, left or right
@@ -155,7 +155,7 @@ widgets:
         #     RSS:
         #         icon: fas fa-rss
         #         url: /
-   -
+    -
         # Widget name
         type: toc
         # Where should the widget be placed, left or right
