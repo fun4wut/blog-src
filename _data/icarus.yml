@@ -110,7 +110,7 @@ sidebar:
     left:
         # Whether the left sidebar is sticky when page scrolls
         # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/make-a-sidebar-sticky-when-page-scrolls/
-        sticky: true
+        sticky: false
     # right sidebar settings
     right:
         # Whether the right sidebar is sticky when page scrolls
@@ -119,11 +119,7 @@ sidebar:
 # Sidebar widget settings
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
-   -
-        # Widget name
-        type: toc
-        # Where should the widget be placed, left or right
-        position: left
+
    -
         # Widget name
         type: profile
@@ -160,7 +156,11 @@ widgets:
         #     RSS:
         #         icon: fas fa-rss
         #         url: /
-
+   -
+        # Widget name
+        type: toc
+        # Where should the widget be placed, left or right
+        position: left
 
     -
         # Widget name
