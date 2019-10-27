@@ -119,7 +119,6 @@ sidebar:
 # Sidebar widget settings
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
-
    -
         # Widget name
         type: profile
