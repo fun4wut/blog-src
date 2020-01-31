@@ -29,7 +29,7 @@ navbar:
         Archives: /archives
         Categories: /categories
         Tags: /tags
-        About: /about
+        About: https://www.linkedin.com/in/%E5%8E%9A%E6%B3%BD-%E5%80%AA-b00a70192/
     # Navigation bar links to be shown on the right
     links:
         RSS:
