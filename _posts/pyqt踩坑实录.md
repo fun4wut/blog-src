@@ -3,6 +3,7 @@ title: pyqt踩坑实录
 date: 2018-11-17 22:17:08
 tags: Python
 toc: true
+index_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/img/20200223145715.png
 categories: 经验分享
 ---
 ## 如何创建一个可编辑的QLabel（双击编辑，回车保存）

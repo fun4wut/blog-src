@@ -3,6 +3,7 @@ title: KDE踩坑实录 [3月22日更新]
 date: 2019-03-13 15:15:30
 tags: Linux
 toc: true
+index_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/img/20200223144945.png
 categories: 经验分享
 ---
 

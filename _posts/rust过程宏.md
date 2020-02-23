@@ -6,6 +6,7 @@ tags:
  - 过程宏
  - 造轮子
 toc: true
+index_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/img/20200223135743.png
 categories: 经验分享
 ---
 [Python-Fire]()是一个简单易用的库，它能够将Python函数转变成 `CLI` 形式，将函数的参数作为命令行参数来读入，举个例子：

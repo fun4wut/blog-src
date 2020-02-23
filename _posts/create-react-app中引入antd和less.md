@@ -3,6 +3,7 @@ title: create-react-app中引入antd和less
 date: 2018-08-14 17:57:32
 tags: React
 toc: true
+index_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/img/5ab72d38aa49cd9d.jpg
 categories: 经验分享
 ---
 

@@ -5,6 +5,7 @@ tags:
  - 服务器
  - Git
 toc: true
+index_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/img/20200223141743.png
 categories: 经验分享
 ---
 

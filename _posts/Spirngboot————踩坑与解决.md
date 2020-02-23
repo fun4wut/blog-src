@@ -7,6 +7,7 @@ tags:
  - docker
  - 数据库
 toc: true
+index_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/img/20200223143726.png
 categories: 经验分享
 ---
 

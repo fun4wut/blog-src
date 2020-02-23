@@ -5,6 +5,7 @@ tags:
  - Linux
  - Node.js
 toc: true
+index_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/img/20200223151629.png
 categories: 经验分享
 ---
 

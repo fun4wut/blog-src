@@ -3,6 +3,7 @@ title: Vscode搭建TS环境
 date: 2018-05-26 09:52:22
 tags: Vscode
 toc: true
+index_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/img/20200223151528.png
 categories: 经验分享
 ---
 

@@ -6,6 +6,7 @@ tags:
  - 数据库
 top_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/18-8-29/post-bg.jpg
 toc: true
+index_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/img/20200223141119.png
 categories: 经验分享
 ---
 

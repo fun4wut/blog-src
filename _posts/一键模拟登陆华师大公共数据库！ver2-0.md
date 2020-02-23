@@ -3,6 +3,7 @@ title: 一键模拟登陆华师大公共数据库！ver2.0
 date: 2018-05-26 10:07:38
 tags: Java
 toc: true
+index_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/img/DC935509F19F41BE25B445C0EB5A719E.jpg
 categories: 经验分享
 ---
 花了我整整一天，终于搞定了，爽到。

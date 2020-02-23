@@ -5,6 +5,7 @@ tags:
  - Rust
  - 并发
 toc: true
+index_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/img/20200223140120.png
 categories: 学习笔记
 ---
 

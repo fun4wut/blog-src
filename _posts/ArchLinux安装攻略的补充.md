@@ -3,6 +3,7 @@ title: ArchLinux安装攻略的补充
 date: 2018-09-14 21:24:59
 tags: Linux
 toc: true
+index_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/img/20200223145836.png
 categories: 经验分享
 ---
 

@@ -2,6 +2,7 @@
 title: TheHack2018结束啦！
 date: 2018-07-23 22:57:45
 toc: true
+index_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/img/20200223150307.png
 categories: 经验分享
 ---
 

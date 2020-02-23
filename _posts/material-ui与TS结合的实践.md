@@ -3,6 +3,7 @@ title: material-ui与TS结合的实践
 date: 2019-01-31 19:19:56
 tags: React
 toc: true
+index_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/img/20200223145053.png
 categories: 经验分享
 ---
 

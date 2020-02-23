@@ -2,6 +2,7 @@
 title: SAP-VT项目面经
 date: 2019-05-17 22:17:08
 toc: true
+index_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/img/20200223143609.png
 categories: 杂谈
 ---
 
