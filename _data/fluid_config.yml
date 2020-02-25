@@ -78,8 +78,9 @@ navbar:
     archive: /archives/
     category: /categories/
     tag: /tags/
-    links: /links/  # 友链页，把前面#去掉即可展示
-    about: https://www.linkedin.com/in/%E5%8E%9A%E6%B3%BD-%E5%80%AA-b00a70192/
+    Friends: /links/  # 友链页，把前面#去掉即可展示
+    Linkedin: https://www.linkedin.com/in/%E5%8E%9A%E6%B3%BD-%E5%80%AA-b00a70192/
+    About: /about/
     RSS: /atom.xml
 
 search: # 搜索栏
@@ -289,16 +290,17 @@ tag:
 # About Page
 #---------------------------
 about:  # 以下仅为页面顶部的基本信息，更多内容请在 ./pages/about.md 中编辑，支持 markdown 和 HTML
-  md_path: ./pages/about.md  # 关于页文档的相对路径，可以按相对文档设置主题之外的路径，从而避免更新冲突
-  banner_img: /img/default.png
+  md_path: ../../source/about/index.md  # 关于页文档的相对路径，可以按相对文档设置主题之外的路径，从而避免更新冲突
+  banner_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/img/20200225201730.png
   banner_img_height: 80  # available: 0 - 100
-  avatar: /img/avatar.png # 头像
-  name: myname
-  introduce: info / info / info # 支持 HTML
+  avatar: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/18-8-29/83907422.jpg # 头像
+  name: 番茄瓜皮
+  introduce: 程序员 / 半宅 / 大三狗 # 支持 HTML
   icons: # 更多图标可从 https://fontawesome.com/v5.10.0/icons?d=gallery 查找，并以 "图标名: url" 的格式添加在下方
-    "fab fa-github": https://github.com
-    "fab fa-twitter": https://twitter.com
-    "fab fa-weixin":  # 微信图标，这个是特殊图标，点击不会跳转而是悬浮二维码，所以链接需要对应二维码图片地址
+    "fab fa-github": https://github.com/fun4wut
+    "fab fa-zhihu": https://www.zhihu.com/people/san-miao-hua-tu-wu-miao-jie-ti
+    "fab fa-linkedin": https://www.linkedin.com/in/%E5%8E%9A%E6%B3%BD-%E5%80%AA-b00a70192/
+    "fab fa-weixin":  https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/18-8-29/85485738.jpg # 微信图标，这个是特殊图标，点击不会跳转而是悬浮二维码，所以链接需要对应二维码图片地址
 
 
 #---------------------------
