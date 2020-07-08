@@ -3,6 +3,7 @@ title: TS函数柯里化
 date: 2020-07-08 17:57:32
 tags: TS
 toc: true
+index_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/1_sFq5dedM7pgCiB4x8UCGoQ.png
 categories: 经验分享
 ---
 
