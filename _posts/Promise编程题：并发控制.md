@@ -1,11 +1,11 @@
 ---
 title: Promise编程题：并发控制
-date: 2018-05-26 09:39:27
+date: 2020-09-18 23:38:27
 tags: 
  - JS
  - 面试
 toc: true
-index_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/img/20200223151629.png
+index_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/20200918233725.png
 categories: 学习笔记
 ---
 笔者在面试字节的过程中碰到了道Promise的代码题，相比一般的让你写个 `Promise.all`, `Promise.race` 之流，增加了些难度。故在此记录一下解法
