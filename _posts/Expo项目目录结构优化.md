@@ -3,7 +3,7 @@ title: Expo项目目录结构优化
 date: 2020-02-23 17:57:32
 tags: React
 toc: true
-index_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/img/20200223143158.png
+index_img: https://gofun4-pic.oss-cn-hangzhou.aliyuncs.com/20200923215213.png
 categories: 经验分享
 ---
 
@@ -182,9 +182,6 @@ module.exports = function(api) {
 
 之后对博客主题应该会还做修改，把之前的点击烟花特效加回来，和about页面（现在的about放的是linkedin未免有点严肃）。
 
-### 关于封面图
-
-邦邦7th-3rd day，Jumpin' Music。赞美烤肉man的激光烤肉！破琵琶的不插电环节<del>和小品</del>真的好棒，即使曲风限制了现场的感染力（望向萝萝，RAS），但是她们能把自己的风格不断地演绎和深化，融入到live里，真的很棒。也正是看了这live，我才鼓足了劲，更新了博客。希望之后实习赚点零花钱也能去现场看她们的live吧（
 
 
 
